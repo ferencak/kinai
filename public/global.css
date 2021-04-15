@@ -1,0 +1,27 @@
+html {
+	background: #10121b;
+}
+@font-face {
+	font-family: 'Nunito-Regular';
+	src: url('/font/Nunito-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito-Bold';
+	src: url('/font/Nunito-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito-Black';
+	src: url('/font/Nunito-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito-ExtraBold';
+	src: url('/font/Nunito-ExtraBold.ttf') format('truetype');
+}
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+	font-family: 'Nunito-Regular';
+}
